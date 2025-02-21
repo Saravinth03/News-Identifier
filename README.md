@@ -4,35 +4,41 @@
 This project is a web-based automated news scraper that fetches and displays news headlines from various Indian news websites based on language selection. It also provides direct access to respective news websites and YouTube channels.<br />
 
 ## 🚀 Features:
-1. Multi-language Support - Tamil, Telugu, Malayalam, Hindi, and English.<br />
-2. Real-time News Scraping - Fetches the latest headlines from trusted sources.<br />
-3. Direct Access to News Sources - Includes links to websites and YouTube channels.<br />
-4. User-friendly UI - Built using Tailwind CSS for a modern UI experience.<br />
+1. **Multi-language Support** → Tamil, Telugu, Malayalam, Hindi, and English.<br />
+2. **Real-time News Scraping** → Fetches the latest headlines from trusted sources.<br />
+3. **Direct Access to News Sources** → Includes links to websites and YouTube channels.<br />
+4. **User-friendly UI** → Built using Tailwind CSS for a modern UI experience.<br />
 
 ## 🛠️ Tech Stack:
-~ Frontend - HTML, CSS, JavaScript, Tailwind CSS<br />
-~ Backend - Node.js, Express.js, Cheerio.js(for web scraping) and Cors(for API communication)<br />
+~ **Frontend** - HTML, CSS, JavaScript, Tailwind CSS<br />
+~ **Backend** - Node.js, Express.js, Cheerio.js(for web scraping) and Cors(for API communication)<br />
 
 ## 📂 Project Setup:
-1️⃣ Clone the Repository:<br />
+### 1️⃣ **Clone the Repository**:<br />
+```bash<br />
 git clone https://github.com/your-repo/news-scraper.git<br />
 cd news-scraper<br />
+```
 
-2️⃣ Install Dependencies:<br />
+### 2️⃣ **Install Dependencies**:<br />
+```bash<br />
 npm install<br />
+```
 
-3️⃣ Run the Backend Server:<br />
+### 3️⃣ **Run the Backend Server**:<br />
+```bash<br />
 node app.js<br />
+```
 The server runs on http://localhost:3000.<br />
 
-4️⃣ Open the Frontend:<br />
+### 4️⃣ **Open the Frontend**:<br />
 Simply open index.html in a browser or use Live Server in VS Code.<br />
 
 ## 📡 API Usage:
-Endpoint:<br />
+**Endpoint**:<br />
 GET /scrape-news?language={language}<br />
 
-Example Response:<br />
+**Example Response**:<br />
 [<br />
   {<br />
     "site": "NDTV",<br />
