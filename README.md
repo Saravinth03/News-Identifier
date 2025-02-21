@@ -16,18 +16,18 @@ This project is a web-based automated news scraper that fetches and displays new
 ## 📂 Project Setup:
 ### 1️⃣ **Clone the Repository**:<br />
 ```bash<br />
-git clone https://github.com/your-repo/news-scraper.git<br />
-cd news-scraper<br />
+git clone https://github.com/your-repo/news-scraper.git
+cd news-scraper
 ```
 
 ### 2️⃣ **Install Dependencies**:<br />
 ```bash<br />
-npm install<br />
+npm install
 ```
 
 ### 3️⃣ **Run the Backend Server**:<br />
 ```bash<br />
-node app.js<br />
+node app.js
 ```
 The server runs on http://localhost:3000.<br />
 
