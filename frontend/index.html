@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Scraper</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app" class="min-h-screen bg-cover bg-center" style="background-image: url('images/mike.jpg');">
+    <div class="container mx-auto py-10">
+      <h1 class="text-4xl text-white font-bold text-center mb-6">Find Your News</h1>
+      <div class="bg-white p-8 rounded shadow-lg max-w-lg mx-auto">
+        <label for="languageDropdown" class="block text-lg font-semibold mb-4">Choose Language:</label>
+        
+        <!-- Custom Dropdown -->
+        <div id="customDropdown" class="relative">
+          <button id="dropdownButton" class="w-full p-3 border border-gray-300 rounded flex justify-between items-center">
+            <span id="selectedLanguage">-- Select your Language --</span>
+            <img src="images/dropdown.png" alt="Dropdown Icon" class="w-5 h-5">
+          </button>
+          <ul id="dropdownOptions" class="absolute left-0 w-full bg-white border border-gray-300 rounded shadow-lg mt-2 hidden z-10">
+            <li data-language="Tamil" class="dropdown-option flex items-center p-3 hover:bg-gray-200 cursor-pointer">
+              <img src="images/tamil.png" alt="Tamil" class="w-8 h-8 mr-3">
+              Tamil
+            </li>
+            <li data-language="Telugu" class="dropdown-option flex items-center p-3 hover:bg-gray-200 cursor-pointer">
+              <img src="images/telugu.png" alt="Telugu" class="w-8 h-8 mr-3">
+              Telugu
+            </li>
+            <li data-language="Malayalam" class="dropdown-option flex items-center p-3 hover:bg-gray-200 cursor-pointer">
+              <img src="images/malayalam.png" alt="Malayalam" class="w-8 h-8 mr-3">
+              Malayalam
+            </li>
+            <li data-language="Kannada" class="dropdown-option flex items-center p-3 hover:bg-gray-200 cursor-pointer">
+              <img src="images/kannada.png" alt="Kannada" class="w-8 h-8 mr-3">
+              Kannadam
+            </li>
+            <li data-language="Hindi" class="dropdown-option flex items-center p-3 hover:bg-gray-200 cursor-pointer">
+              <img src="images/hindi.png" alt="Hindi" class="w-8 h-8 mr-3">
+              Hindi
+            </li>
+            <li data-language="English" class="dropdown-option flex items-center p-3 hover:bg-gray-200 cursor-pointer">
+              <img src="images/english.png" alt="English" class="w-8 h-8 mr-3">
+              English
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="newsContainer" class="mt-10"></div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>

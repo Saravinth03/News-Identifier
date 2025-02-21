@@ -1,0 +1,22 @@
+/* Dropdown Options */
+.dropdown-option {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.dropdown-option img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Dropdown Visibility */
+.hidden {
+  display: none;
+}
+
+.block {
+  display: block;
+}
