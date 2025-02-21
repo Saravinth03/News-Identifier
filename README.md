@@ -10,8 +10,8 @@ This project is a web-based automated news scraper that fetches and displays new
 4. **User-friendly UI** → Built using Tailwind CSS for a modern UI experience.<br />
 
 ## 🛠️ Tech Stack:
-~ **Frontend** - HTML, CSS, JavaScript, Tailwind CSS<br />
-~ **Backend** - Node.js, Express.js, Cheerio.js(for web scraping) and Cors(for API communication)<br />
+~ **Frontend** → HTML, CSS, JavaScript, Tailwind CSS<br />
+~ **Backend** → Node.js, Express.js, Cheerio.js(for web scraping) and Cors(for API communication)<br />
 
 ## 📂 Project Setup:
 ### 1️⃣ **Clone the Repository**:<br />
