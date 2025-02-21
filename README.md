@@ -34,14 +34,14 @@ Endpoint:<br />
 GET /scrape-news?language={language}<br />
 
 Example Response:<br />
-[
-  {
-    "site": "NDTV",
-    "headlines": ["Breaking News: India wins the match"],
-    "website": "https://www.ndtv.com/",
-    "youtube": "https://www.youtube.com/@NDTV"
-  }
-]
+[<br />
+  {<br />
+    "site": "NDTV",<br />
+    "headlines": ["Breaking News: India wins the match"],<br />
+    "website": "https://www.ndtv.com/",<br />
+    "youtube": "https://www.youtube.com/@NDTV"<br />
+  }<br />
+]<br />
 
 ## 🖼️ Screenshots:
 ~ Homepage with Language Selection<br />
